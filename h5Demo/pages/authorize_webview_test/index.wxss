@@ -1,0 +1,4 @@
+/* subpackages/h5Demo/pages/authorize_webview_test/index.wxss */
+.authorizePosition {
+    padding-bottom: 300rpx !important;
+}

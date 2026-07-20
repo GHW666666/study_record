@@ -1,0 +1,2 @@
+<web-view wx:if="{{src}}" src="{{src}}" bindmessage="onMessage" binderror="onError"></web-view>
+<view wx:else class="tip">{{tip}}</view>

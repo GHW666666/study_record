@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "Authorize": "/Components/Authorize/Authorize"
+    },
+    "navigationStyle": "default",
+    "navigationBarTitleText": "Authorize/WebView 测试"
+}

@@ -1,0 +1,6 @@
+.tip {
+    padding: 80rpx 40rpx;
+    font-size: 30rpx;
+    color: #ff436a;
+    text-align: center;
+}

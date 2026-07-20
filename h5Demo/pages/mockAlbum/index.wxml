@@ -1,0 +1,6 @@
+<view class="page">
+    <view class="title">模拟共享相册 · 页面A</view>
+    <view class="desc">点下面按钮：返回 webview 页，并通过 hash 把参数传给 H5</view>
+    <view class="params">将回传：picId = {{picId}}，name = {{name}}</view>
+    <button class="btn" type="primary" bindtap="backWithParams">返回并携带参数</button>
+</view>

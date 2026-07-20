@@ -1,0 +1,15 @@
+<!--subpackages/h5Demo/pages/authorize_webview_test/index.wxml-->
+<button bindtap="toggleWebView" style="position: fixed; top: 200rpx; left: 20rpx; z-index: 200;">
+    切换WebView
+</button>
+<web-view wx:if="{{showWebView}}" src="https://www.baidu.com/" />
+<Authorize
+    wx:if="{{ !showWebView }}"
+    id="Authorize"
+    custom-class="authorizePosition"
+    redirect-url="{{ redirectUrl }}"
+    redirect-query="{{ redirectQuery }}"
+    fullPathUrl="{{ fullPathUrl }}"
+    isIndexPage
+    newVersion="{{true}}"
+></Authorize>
